@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.base.CreateNewOrg" skipped="0" tests="1" time="70.48" timestamp="2019-07-02 12:19:46"><testcase classname="tests.base.CreateNewOrg" name="Check org successfully created"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+screens.base.TestValidationPage.checkSignUp(TestValidationPage.java:35)&#13;
+steps.OrgSignUpSteps.checkSuccess(OrgSignUpSteps.java:34)&#13;
+tests.base.CreateNewOrg.checkOrgSuccessfullyCreated(CreateNewOrg.java:103)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>
