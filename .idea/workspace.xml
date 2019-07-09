@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8cef27-11d9-4838-a41c-e7c4fbc9962b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/screens/base/SalesforceLoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/screens/base/SalesforceLoginScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Serenity-bdd-salesforce-automation.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SalesforceLoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SalesforceLoginSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/LoginSalesforce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/LoginSalesforce.class" afterDir="false" />
@@ -127,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,7 +198,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -422,6 +411,21 @@
       <option name="presentableId" value="Default" />
       <updated>1562041041122</updated>
     </task>
+    <task id="LOCAL-00001" summary="nuevos cambios">
+      <created>1562715129145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562715129145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nuevos cambios x">
+      <created>1562715245057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562715245057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -457,7 +461,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Archetypes" />
@@ -477,8 +481,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,7 +495,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevos cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevos cambios" />
+    <MESSAGE value="nuevos cambios x" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevos cambios x" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/client_secret.json">
@@ -670,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
