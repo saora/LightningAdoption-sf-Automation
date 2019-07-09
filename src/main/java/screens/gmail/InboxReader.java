@@ -31,7 +31,7 @@ String n;
             store.connect("imap.gmail.com", "glbltest.salesforce@gmail.com", "61084n7mex01");
             // System.out.println(store);
             Folder inbox = store.getFolder("Inbox");
-            inbox.open(Folder.READ_ONLY);
+            inbox.open(Folder.READ_WRITE);
             FlagTerm ft = new FlagTerm(new Flags(Flags.Flag.SEEN), false);
             Message messages[] = inbox.search(ft);
             try {
@@ -41,6 +41,7 @@ String n;
                             System.out.println(" Email found!!");
                            // System.out.println(message.getSubject());
                            // System.out.println(message.getContent().toString());
+                            message.setFlag(Flags.Flag.SEEN, true);
                             String cadena = message.getContent().toString();
                             char [] cadena_div = cadena.toCharArray();
                             String n = "";
