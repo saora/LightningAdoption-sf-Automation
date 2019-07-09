@@ -25,8 +25,5 @@ public class VerifyOrgAccount {
         gmail_User.openGemailUrl();
         gmail_User.signInWithTheirGmailAccount(userName, password, subjectValue);
         gmail_User.changeTheirPasswordSalesforceOrg("test1234","test1234","test");
-
-
     }
-
 }
