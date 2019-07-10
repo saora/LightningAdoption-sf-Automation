@@ -14,6 +14,12 @@ public class SalesforceLoginScreen extends PageObject {
     @FindBy(id="Login")
     private static WebElementFacade SIGN_IN;
 
+    @FindBy(id = "emc")
+    private static WebElementFacade verCode;
+
+    @FindBy(id = "save")
+    private static WebElementFacade click_Verify;
+
     public SalesforceLoginScreen(WebDriver driver) {
         super(driver);
     }
@@ -37,5 +43,15 @@ public class SalesforceLoginScreen extends PageObject {
         fillUserName(userName);
         fillPassword(password);
         clickSignIn();
+    }
+
+    public void verify(String verifyCode){
+        try {
+            verCode.sendKeys(verifyCode);
+            click_Verify.click();
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+
     }
 }

@@ -8,7 +8,9 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.runner.RunWith;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
@@ -27,9 +29,7 @@ import screens.base.ApplicationHomePage;
 import screens.base.FillOrgDataFromSpreadSheet;
 import screens.base.OrgSignUpScreen;
 import steps.OrgSignUpSteps;
-
 import java.io.InputStreamReader;
-
 
 @RunWith(SerenityRunner.class)
 public class CreateNewOrg {
@@ -38,7 +38,7 @@ public class CreateNewOrg {
     private static FileDataStoreFactory DATA_STORE_FACTORY;
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     private static HttpTransport HTTP_TRANSPORT;
-    private static final List<String> SCOPES = Arrays.asList(SheetsScopes.SPREADSHEETS_READONLY);
+    private static final List<String> SCOPES = Collections.singletonList(SheetsScopes.SPREADSHEETS_READONLY);
 
     static {
         try {
@@ -63,7 +63,6 @@ public class CreateNewOrg {
         Credential credential = authorize();
         return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential).setApplicationName(APPLICATION_NAME).build();
     }
-
 
     @Managed(driver="chrome")
     WebDriverFacade chromeDriver;
@@ -99,7 +98,6 @@ public class CreateNewOrg {
                 signUpScreen.setSubmit();
             }
         }
-
         Salesforce_User.checkSuccess();
     }
 

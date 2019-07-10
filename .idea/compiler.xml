@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Serenity-bdd-salesforce-automation" />
+        <module name="salesforce-automation" />
       </profile>
     </annotationProcessing>
   </component>
