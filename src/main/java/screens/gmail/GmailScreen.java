@@ -52,12 +52,12 @@ public class GmailScreen extends PageObject {
         super(driver);
     }
 
-    private void setfillGmailUser(String userGmail){
+    public void setfillGmailUser(String userGmail){
         fill_UserGmail.clear();
         fill_UserGmail.sendKeys(userGmail);
     }
 
-    private void setfillGmailPass(String passGmail){
+    public void setfillGmailPass(String passGmail){
         fill_UserPassword.clear();
         fill_UserPassword.sendKeys(passGmail);
     }

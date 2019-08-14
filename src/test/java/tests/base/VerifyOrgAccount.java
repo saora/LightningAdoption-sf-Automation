@@ -6,24 +6,55 @@ import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.webdriver.WebDriverFacade;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import pages.HomePage;
+import pages.LoginPage;
+import steps.EmailSteps;
+import steps.com.FillDataFromSpreadSheet;
+import steps.base.login.LoginSteps;
+
+import javax.mail.MessagingException;
+
+/*import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.annotations.Steps;
+import net.thucydides.core.webdriver.WebDriverFacade;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import steps.EmailSteps;
 
+@RunWith(SerenityRunner.class)*/
 @RunWith(SerenityRunner.class)
 public class VerifyOrgAccount {
     @Managed(driver="chrome")
     WebDriverFacade chromeDriver;
 
     @Steps
+    private FillDataFromSpreadSheet fillDataFromSpreadSheet;
+    private CreateNewOrg createNewOrg;
+    private LoginPage loginPage;
     private EmailSteps gmail_User;
+    private LoginSteps loginSteps;
+    private HomePage homePage;
 
     @Test
-    public void openEmailToVeryfyAccount(){
+    public void tst()throws MessagingException {
+        try {
+            fillDataFromSpreadSheet.loginSalesforce();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
-        String password = "61084n7mex01";
-        String userName = "glbltest.salesforce@gmail.com";
-        String subjectValue = "is:unread subject:(Welcome to Salesforce: Verify your account)";
-        gmail_User.openGemailUrl();
-        gmail_User.signInWithTheirGmailAccount(userName, password, subjectValue);
-        gmail_User.changeTheirPasswordSalesforceOrg("test1234","test1234","test");
+/*        loginPage.loginPage("ccbdd01@de.org","test1234");
+        LoginSteps lsteps = new LoginSteps();
+        lsteps.verifySalesforceAccount("glbltest.salesforce@gmail.com","61084n7mex01");
+       homePage.switchToClassic();
+        try {
+            fillDataFromSpreadSheet.getDataJsButton();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+       */
     }
+
+
 }

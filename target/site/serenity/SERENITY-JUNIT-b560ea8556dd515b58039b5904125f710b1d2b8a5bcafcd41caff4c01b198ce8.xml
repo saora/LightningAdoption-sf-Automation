@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.LoginSalesforce" skipped="0" tests="1" time="40.47" timestamp="2019-07-01 11:51:32"><testcase classname="tests.LoginSalesforce" name="Check user successfully login"><failure message="expected:&lt;[Lightning Experien]ce&gt; but was:&lt;[Verify Your Identity | Salesfor]ce&gt;" type="org.junit.ComparisonFailure">expected:&lt;[Lightning Experien]ce&gt; but was:&lt;[Verify Your Identity | Salesfor]ce&gt;</failure><system-err>expected:&lt;[Lightning Experien]ce&gt; but was:&lt;[Verify Your Identity | Salesfor]ce&gt;&#13;
-screens.base.TestValidationPage.checkTitle(TestValidationPage.java:12)&#13;
-steps.SalesforceLoginSteps.checkProfile(SalesforceLoginSteps.java:28)&#13;
-tests.LoginSalesforce.checkUserSuccessfullyLogin(LoginSalesforce.java:33)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
-java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-</system-err></testcase></testsuite>

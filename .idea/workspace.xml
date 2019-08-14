@@ -2,24 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8cef27-11d9-4838-a41c-e7c4fbc9962b" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/screens/base/GetApplicationUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/screens/base/SalesforceObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CustomFieldPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ActionsStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/signup/SignupStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/base/NuevaOrg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/base/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/login/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/objectmanager/customize/actions.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/objectmanager/customize/jsbuttons.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/features/signup/signup.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/windows/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/windows/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/ApplicationHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/FillOrgDataFromSpreadSheet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/OrgSignUpScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/serenity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/webdriver/windows/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/EmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/EmailSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/OrgSignUpSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/base/ApplicationHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/base/ChangePasswordScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/screens/base/ChangePasswordScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/base/FillOrgDataFromSpreadSheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/base/OrgSignUpScreen.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/screens/base/SalesforceLoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/screens/base/SalesforceLoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Serenity-bdd-salesforce-automation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SalesforceLoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SalesforceLoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/LoginSalesforce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/LoginSalesforce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/VerifyOrgAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/VerifyOrgAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/base/TestValidationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/screens/base/TestValidationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/screens/gmail/GmailScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/screens/gmail/GmailScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serenity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/08c547e1f2ee5e9bed04dc0a49e95f8be109fa607d9363ef93bf1edf83bc7496.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/126217e011ce06854754d565683d43547c560d753bde6bb295095221c1651099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/13345f07d886b5ddf4b4331a3d232e07c45b980f0a176ee383b5cda9e232e2df.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1c3e75e119bc5c4ef97ccc4a4542d81d9fa07e351a2da8acfebad8abe825b258.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1f58d2d62637c86b50846753577b957491d05266129f950ae837a5fba7d9003c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2c0998f0c1b8c3705ecbb08c3819dc6aeda833046a3c92731e6c5d12a5c203d8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5ecef4c2e76f31705bf1f1749e791c0d0bdb9e7b0f55f039b32114bd1625ae17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/73f1a170584cc776949c5aa95ec4f1172c42aba2ebad81ee8bf987a60c64a78d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/88d114619d047a8a6219e784ee94d36bed744d64183bfe8c8074d4e5cfac5abf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9aeee8539845efac5b9e97b38fb763e85584b107c69d31ec2619e23ff66218bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b560ea8556dd515b58039b5904125f710b1d2b8a5bcafcd41caff4c01b198ce8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-eff009ef36c49e73d3693c383dd0f07bdfe6b0fdfb22a2b6d0473a32cc698576.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/aadfa39844e561df188f1f22ba85127af066da0bad40b30eca8496369f6c7952.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b560ea8556dd515b58039b5904125f710b1d2b8a5bcafcd41caff4c01b198ce8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b560ea8556dd515b58039b5904125f710b1d2b8a5bcafcd41caff4c01b198ce8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b560ea8556dd515b58039b5904125f710b1d2b8a5bcafcd41caff4c01b198ce8_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b58381f9d14b34aeee3e44b7eab2a0b3d8bf12fb68919983497f522963b41b61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/tables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/Sorting icons.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dcb68be8190ed2d22be9168ad695be4f60290863278994c1249f07d044ad1931.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/df720bcdbaa6d13dc65698f3a400c34460bcf9e43a0fec312d3c435386dd6f98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eff009ef36c49e73d3693c383dd0f07bdfe6b0fdfb22a2b6d0473a32cc698576.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eff009ef36c49e73d3693c383dd0f07bdfe6b0fdfb22a2b6d0473a32cc698576.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eff009ef36c49e73d3693c383dd0f07bdfe6b0fdfb22a2b6d0473a32cc698576_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bottomm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-appium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-firefox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-htmlunit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-iexplorer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-phantomjs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-provided.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-remote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/greenline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ico-q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/icon-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ignor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/links_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/pending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/serenity-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/skip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tablebg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/topm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-in-progress.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-orange.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-yellow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/HeatMap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/RGraph.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource11371368776143512555.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource1703900690784263790.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/serenity-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/EmailSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/EmailSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/OrgSignUpSteps.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,16 +393,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,34 +413,102 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1752#1753#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1985#1986#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,68 +517,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OrgSignUpSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="211">
+              <caret line="235" selection-start-line="235" selection-end-line="235" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6669#6670#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="141" column="19" lean-forward="true" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#507#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,6 +534,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JBehave Story" />
         <option value="Class" />
       </list>
     </option>
@@ -161,35 +543,88 @@
     <findStrings>
       <find>This is a Multipart</find>
       <find>No match</find>
+      <find>fillJsButtonInformation</find>
+      <find>Home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/test" />
+                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/client_secret.json" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/ApplicationHomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/base/ApplicationHomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginSalesforce.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/base/ChangePasswordScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/base/OrgSignUpScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/screens/base/FillOrgDataFromSpreadSheet.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/EmailSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/OrgSignUpSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InboxReader.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/build/customize/accounts/jsbuttons/jsbuttons.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/screens/base/SalesforceObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/ActionsStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/ButtonLinkStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/login/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/LoginStepsDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/LoginSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/SignupStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/signup/signup.feature" />
         <option value="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/LoginStepsDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/CustomFiledPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/base/NuevaOrg.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/build/customize/objectmanager/jsbuttons/jsbuttons.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/build/customize/objectmanager/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/webdriver/windows/serenity.conf" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/build/customize/objectmanager/objectmanager.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/CustomFieldPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/screens/base/GetApplicationUrl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/signup/SignupStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/FillDataFromSpreadSheet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/runnertest/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/runner/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ActionsStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java" />
       </list>
     </option>
   </component>
@@ -200,7 +635,26 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Sample Serenity BDD project using maven and junit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Sample Serenity BDD project using maven and junit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -212,7 +666,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="salesforce-automation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="salesforce-automation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,13 +737,6 @@
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,6 +745,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +768,139 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,12 +911,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\test\resources" />
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\main\resources\webdriver\windows" />
       <recent name="C:\Users\saoramx\IdeaProjects\Serenity-bdd-salesforce-automation\src\main\resources\webdriver\windows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.runnertest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\test\resources\webdriver" />
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\main\resources\webdriver" />
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\main\resources" />
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\main\resources\webdriver\windows" />
+      <recent name="C:\Users\saoramx\IdeaProjects\LightningAdoption-sf-Automation\src\test\resources\com\features\objectmanager\customize" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,60 +946,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginSalesforce">
-    <configuration name="InboxReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="screens.gmail.InboxReader" />
-      <module name="salesforce-automation" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetEmailCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="salesforce-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.base" />
-      <option name="MAIN_CLASS_NAME" value="tests.base.GetEmailCode" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetEmailCode.getCodeG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="salesforce-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.base" />
-      <option name="MAIN_CLASS_NAME" value="tests.base.GetEmailCode" />
-      <option name="METHOD_NAME" value="getCodeG" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginSalesforce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="salesforce-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.base" />
-      <option name="MAIN_CLASS_NAME" value="tests.base.LoginSalesforce" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="LoginSalesforce.checkUserSuccessfullyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="salesforce-automation" />
       <extension name="coverage">
@@ -399,20 +963,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NuevaOrg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="salesforce-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.base" />
+      <option name="MAIN_CLASS_NAME" value="tests.base.NuevaOrg" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NuevaOrg.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="salesforce-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.base" />
+      <option name="MAIN_CLASS_NAME" value="tests.base.NuevaOrg" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="salesforce-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepsdefinitions.runner.objectmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepsdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepsdefinitions.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="salesforce-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepsdefinitions.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepsdefinitions.runner" />
+      <option name="MAIN_CLASS_NAME" value="stepsdefinitions.runner.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.InboxReader" />
-      <item itemvalue="JUnit.GetEmailCode.getCodeG" />
-      <item itemvalue="JUnit.LoginSalesforce" />
-      <item itemvalue="JUnit.GetEmailCode" />
       <item itemvalue="JUnit.LoginSalesforce.checkUserSuccessfullyLogin" />
+      <item itemvalue="JUnit.RunTest" />
+      <item itemvalue="JUnit.NuevaOrg" />
+      <item itemvalue="JUnit.NuevaOrg.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginSalesforce" />
+        <item itemvalue="JUnit.RunTest" />
+        <item itemvalue="JUnit.NuevaOrg" />
         <item itemvalue="JUnit.LoginSalesforce.checkUserSuccessfullyLogin" />
-        <item itemvalue="JUnit.GetEmailCode" />
-        <item itemvalue="JUnit.GetEmailCode.getCodeG" />
-        <item itemvalue="Application.InboxReader" />
+        <item itemvalue="JUnit.NuevaOrg.test" />
       </list>
     </recent_temporary>
   </component>
@@ -441,46 +1064,83 @@
       <option name="project" value="LOCAL" />
       <updated>1562715245057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java">
+      <created>1562722139670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562722139670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetEmailCode - 2019.07.09 at 13h 16m 07s.xml">
-      <configuration name="GetEmailCode" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 00m 16s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetEmailCode - 2019.07.09 at 13h 16m 34s.xml">
-      <configuration name="GetEmailCode" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 18m 57s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 14h 09m 50s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 28m 44s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 14h 13m 24s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 32m 41s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 14h 23m 29s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 37m 39s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 14h 25m 34s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.11 at 20h 49m 10s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 14h 26m 48s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.13 at 22h 12m 37s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 15h 41m 09s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.13 at 22h 21m 36s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce_checkUserSuccessfullyLogin - 2019.07.09 at 15h 43m 53s.xml">
-      <configuration name="LoginSalesforce.checkUserSuccessfullyLogin" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.13 at 22h 48m 44s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSalesforce - 2019.07.09 at 15h 46m 17s.xml">
-      <configuration name="LoginSalesforce" configurationId="JUnit" />
+    <history-entry file="RunTest - 2019.08.13 at 22h 55m 16s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Archetypes" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6567164" visible="true" weight="0.25893825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3432836" side_tool="true" weight="0.28060672" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.38059703" weight="0.32936078" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" visible="true" weight="0.11567164" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,24 +1150,24 @@
       <window_info id="Archetypes" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24160346" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6567164" visible="true" weight="0.28060672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3432836" side_tool="true" visible="true" weight="0.28060672" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.38059703" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10554371" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevos cambios" />
@@ -516,106 +1176,213 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/client_secret.json">
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/results.csv" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.53/serenity-core-2.0.53.jar!/net/serenitybdd/core/pages/WebElementFacadeImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="327" selection-start-column="327" selection-end-column="327" />
+        <state relative-caret-position="12920">
+          <caret line="888" selection-start-line="888" selection-end-line="888" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/serenity.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="174">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4/mail-1.4.jar!/javax/mail/Part.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="302">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/OrgSignUpScreen.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1158">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/SalesforceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="544">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.53/serenity-core-2.0.53.jar!/net/thucydides/core/pages/Pages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="49" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/BtnLinksActionsSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/customize/jsbuttons.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/customize/actions.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/webdriver/windows/serenity.conf" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/signup/signup.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/GetApplicationUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/signup/SignupStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/ApplicationHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="57" />
+        <state relative-caret-position="187">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/runner/RunTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/CcStepDefinitionsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ActionsStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/ChangePasswordScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        <state relative-caret-position="561">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/NuevaOrg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/FillOrgDataFromSpreadSheet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/GmailScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="867">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/CustomFieldPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OrgSignUpSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1173">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -624,65 +1391,223 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/GetEmailCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/LoginSalesforce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.53/serenity-core-2.0.53.jar!/net/serenitybdd/core/pages/PageObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        <state relative-caret-position="493">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="141" column="19" lean-forward="true" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#507#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/login/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/base/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6669#6670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean verify -Ddriver=firefox" />
+    <option value="clean verify -Ddriver=chrome" />
+    <option value="$ mvn clean verify -Ddriver=chrome" />
+    <option value="clean verify -Ddriver=chrome.switches = --incognito;--disable-download-notification" />
+    <option value="$ mvn clean verify -Ddriver=firefox" />
+    <option value="clean verify" />
+    <option value="clean" />
+    <option value="verify" />
+    <option value="clean verify -Dwebdriver.driver=chrome -X" />
+    <option value="clean verify -Dwebdriver.driver=chrome" />
   </component>
 </project>

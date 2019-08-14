@@ -1,7 +1,6 @@
 package screens.base;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 public class SalesforceLoginScreen extends PageObject {
@@ -20,9 +19,9 @@ public class SalesforceLoginScreen extends PageObject {
     @FindBy(id = "save")
     private static WebElementFacade click_Verify;
 
-    public SalesforceLoginScreen(WebDriver driver) {
+  /*  public SalesforceLoginScreen(WebDriver driver) {
         super(driver);
-    }
+    }*/
 
     private void fillUserName(String userName){
         FILL_USERNAME.clear();
@@ -49,8 +48,8 @@ public class SalesforceLoginScreen extends PageObject {
         try {
             verCode.sendKeys(verifyCode);
             click_Verify.click();
-        }catch (Exception e){
-            System.out.println(e.getMessage());
+        }catch(Exception e){
+            e.printStackTrace();
         }
 
     }
