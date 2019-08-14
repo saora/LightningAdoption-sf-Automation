@@ -1,16 +1,12 @@
 package screens.base;
 
 import net.serenitybdd.core.pages.PageObject;
-import org.apache.tools.ant.taskdefs.email.Message;
+//import org.apache.tools.ant.taskdefs.email.Message;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
 import java.util.Set;
 public class TestValidationPage extends PageObject {
-
-    public void checkTitle(){
-        Assert.assertEquals("Lightning Experience",getTitle());
-    }
 
     public void checkSignUp(){
         String parentHandle = getDriver().getWindowHandle();

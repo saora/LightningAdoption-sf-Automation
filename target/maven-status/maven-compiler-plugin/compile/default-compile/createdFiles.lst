@@ -1,0 +1,7 @@
+screens\base\GetApplicationUrl.class
+screens\base\ChangePasswordScreen.class
+screens\base\TestValidationPage.class
+screens\base\SalesforceObject.class
+screens\gmail\GmailScreen.class
+screens\gmail\InboxReader.class
+screens\base\SalesforceLoginScreen.class

@@ -1,13 +1,7 @@
 package tests.base;
 
-import net.thucydides.core.annotations.Steps;
-import org.junit.Test;
-import screens.gmail.InboxReader;
-
-import javax.mail.MessagingException;
-
 public class GetEmailCode {
-    @Steps
+    /*@Steps
     private InboxReader inboxReader;
 
     @Test
@@ -15,5 +9,5 @@ public class GetEmailCode {
         String a = InboxReader.getEmail("glbltest.salesforce@gmail.com", "61084n7mex01");
         System.out.println(a);
 
-    }
+    }*/
 }

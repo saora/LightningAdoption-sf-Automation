@@ -1,37 +1,39 @@
 package tests.base;
 
+//@RunWith(SerenityRunner.class)
+
+
 import net.serenitybdd.junit.runners.SerenityRunner;
-import org.junit.runner.RunWith;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.webdriver.WebDriverFacade;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import steps.SalesforceLoginSteps;
+import screens.base.GetApplicationUrl;
+import steps.base.login.LoginSteps;
 
-import javax.mail.MessagingException;
+import java.io.IOException;
 
 @RunWith(SerenityRunner.class)
 public class LoginSalesforce {
     //@Managed
     //WebDriverFacade driver; // defaults to firefox geckodriver*/
-    @Managed(driver="chrome")
+
+    @Managed(driver = "chrome")
     WebDriverFacade chromeDriver;
 
+
     @Steps
-    private SalesforceLoginSteps SalesforceUser;
+    private GetApplicationUrl getApplicationUrl;
+    private LoginSteps loginSteps;
+
 
     @Test
-    public void checkUserSuccessfullyLogin()throws MessagingException {
-        // Given
-        SalesforceUser.IsARegisteredMember();
-        // When
-        SalesforceUser.signInWithTheirAccount("ccbdd01@de.org","test1234");
-        // Then
-            SalesforceUser.verifySalesforceAccount("glbltest.salesforce@gmail.com", "61084n7mex01");
-        // Then
-        SalesforceUser.checkProfile();
+    public void checkUserSuccessfullyLogin() throws IOException {
+        //loginSteps.openLoginPage("login");
+       getApplicationUrl.openPageUrl("login");
+       // loginPage.setloginPage("login");
+        //fillDataFromSpreadSheet.loginSalesforce();
+        //SalesforceUser.verifyLoginSuccess();
     }
 }

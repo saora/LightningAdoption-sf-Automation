@@ -1,18 +1,18 @@
 package steps;
 import net.thucydides.core.annotations.Step;
-import screens.base.ApplicationHomePage;
+import screens.base.GetApplicationUrl;
 import screens.base.ChangePasswordScreen;
 import screens.gmail.GmailScreen;
 
 public class EmailSteps {
     private String actor;
     private GmailScreen gmailScreen;
-    private ApplicationHomePage applicationHomePage;
+    private GetApplicationUrl applicationHomePage;
     private ChangePasswordScreen changePasswordScreen;
 
     @Step("#actor opens the Gmail Url")
     public void openGemailUrl(){
-        applicationHomePage.openPageUrl(2);
+        applicationHomePage.openPageUrl("gmail");
         // we can check credentials using api or db
     }
 
