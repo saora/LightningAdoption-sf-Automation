@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 import pages.HomePage;
 import pages.LoginPage;
 import steps.EmailSteps;
-import steps.com.FillDataFromSpreadSheet;
 import steps.base.login.LoginSteps;
+import steps.com.LoginData;
 
 import javax.mail.MessagingException;
 
@@ -29,7 +29,7 @@ public class VerifyOrgAccount {
     WebDriverFacade chromeDriver;
 
     @Steps
-    private FillDataFromSpreadSheet fillDataFromSpreadSheet;
+    private LoginData loginData;
     private CreateNewOrg createNewOrg;
     private LoginPage loginPage;
     private EmailSteps gmail_User;
@@ -39,7 +39,7 @@ public class VerifyOrgAccount {
     @Test
     public void tst()throws MessagingException {
         try {
-            fillDataFromSpreadSheet.loginSalesforce();
+            loginData.loginSalesforce();
         }catch (Exception e){
             e.printStackTrace();
         }

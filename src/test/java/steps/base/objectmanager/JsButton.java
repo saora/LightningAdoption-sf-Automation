@@ -4,12 +4,14 @@ import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
 import pages.BtnLinksActionsPage;
 import pages.HomePage;
-import steps.com.FillDataFromSpreadSheet;
+import steps.com.ActionData;
+import steps.com.JsButtonData;
 
 public class JsButton extends PageObject {
 
     private HomePage homePage;
-    private FillDataFromSpreadSheet fillData;
+    private JsButtonData jsButtonData;
+    private ActionData actionData;
     private BtnLinksActionsPage btnLinksActionsPage;
 
     @Step
@@ -20,12 +22,12 @@ public class JsButton extends PageObject {
 
     @Step
     public void newJsButton()throws Exception {
-        fillData.getDataJsButton();
+        jsButtonData.getDataJsButton();
     }
 
     @Step
     public void newAction()throws Exception{
-        fillData.getDataNewAction();
+        actionData.getDataNewAction();
     }
 
     @Step

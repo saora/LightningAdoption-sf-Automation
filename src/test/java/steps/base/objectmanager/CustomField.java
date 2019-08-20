@@ -4,12 +4,14 @@ import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
 import pages.BtnLinksActionsPage;
 import pages.HomePage;
-import steps.com.FillDataFromSpreadSheet;
+import steps.com.FieldData;
+import steps.com.GetDataFromSpreadSheet;
 
 public class CustomField extends PageObject {
 
    private HomePage homePage;
-   private FillDataFromSpreadSheet actionData;
+   private GetDataFromSpreadSheet actionData;
+   private FieldData fieldData;
    private BtnLinksActionsPage btnLinksAction;
 
     @Step
@@ -20,6 +22,7 @@ public class CustomField extends PageObject {
 
     @Step
     public void fillFieldData()throws Exception{
-        actionData.setDatafield();
+        fieldData.setDataField();
+        //actionData.setDatafield();
     }
 }

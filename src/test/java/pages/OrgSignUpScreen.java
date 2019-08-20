@@ -53,7 +53,6 @@ public class OrgSignUpScreen extends PageObject {
     }
 
     public void setSel_JobRole(String sjobRole){
-
         sel_JobRole.selectByVisibleText(String.valueOf(sjobRole));
     }
 

@@ -1,15 +1,17 @@
 package steps.base.signup;
 
 import net.thucydides.core.annotations.Step;
-import steps.com.FillDataFromSpreadSheet;
+import steps.com.GetDataFromSpreadSheet;
+import steps.com.SignUpData;
 
 public class OrgSignUpSteps {
     private String actor;
-    private FillDataFromSpreadSheet fillDataFromSpreadSheet;
+    private GetDataFromSpreadSheet fillDataFromSpreadSheet;
+    private SignUpData signUpData;
 
     @Step("#actor should be able to send the Org Information")
-    public void setDataOrg()throws Exception{
-        fillDataFromSpreadSheet.setOrgDataFromSpreadSheet();
+    public void setDataOrg()throws Exception {
+        signUpData.setOrgDataFromSpreadSheet();
 
     }
 

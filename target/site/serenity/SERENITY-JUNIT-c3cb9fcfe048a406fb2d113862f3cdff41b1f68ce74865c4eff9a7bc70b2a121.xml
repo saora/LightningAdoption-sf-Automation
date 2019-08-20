@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Set Custom Object Data" skipped="0" tests="2" time="108.77" timestamp="2019-08-20 12:29:28"><testcase name="Add Field"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown&#13;
+pages.CustomFieldPage.selDataType(CustomFieldPage.java:182)&#13;
+steps.com.FieldData.setDataField2(FieldData.java:31)&#13;
+steps.base.objectmanager.CustomField.fillFieldData(CustomField.java:25)&#13;
+stepsdefinitions.objectmanager.ObjectStepDefinitons.submitFieldInfo(ObjectStepDefinitons.java:42)&#13;
+✽.I submit the field information(src/test/resources/com/features/objectmanager/objectmanager.feature:13)&#13;
+</system-err></testcase><testcase name="Add Js Button"><error message="The following error occurred: Failed to decode response from marionette&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5728, moz:profile: C:\Users\saoramx\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bf33772d-eb16-4541-8a81-3dad5534f79a&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">The following error occurred: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5728, moz:profile: C:\Users\saoramx\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf33772d-eb16-4541-8a81-3dad5534f79a
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5728, moz:profile: C:\Users\saoramx\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf33772d-eb16-4541-8a81-3dad5534f79a
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown&#13;
+steps.base.login.LoginSteps.openLoginPage(LoginSteps.java:22)&#13;
+stepsdefinitions.objectmanager.ObjectStepDefinitons.getLoginPage(ObjectStepDefinitons.java:23)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Set Custom Object Data" skipped="0" tests="1" time="44.34" timestamp="2019-08-19 11:57:53"><testcase name="Add Js Button"><failure message="expected:&lt;...stom Button or Link [Detail]&gt; but was:&lt;...stom Button or Link [Edit]&gt;" type="java.lang.AssertionError">expected:&lt;...stom Button or Link [Detail]&gt; but was:&lt;...stom Button or Link [Edit]&gt;</failure><system-err>expected:&lt;...stom Button or Link [Detail]&gt; but was:&lt;...stom Button or Link [Edit]&gt;&#13;
+pages.BtnLinksActionsPage.objBtnLinkVerification(BtnLinksActionsPage.java:226)&#13;
+steps.base.objectmanager.JsButton.jsButtonverify(JsButton.java:33)&#13;
+stepsdefinitions.objectmanager.ObjectStepDefinitons.newJsButtonVerification(ObjectStepDefinitons.java:60)&#13;
+✽.I should create a new Js Button(src/test/resources/com/features/objectmanager/objectmanager.feature:19)&#13;
+</system-err></testcase></testsuite>

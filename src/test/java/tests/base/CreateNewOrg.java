@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
 import pages.OrgSignUpScreen;
 import screens.base.GetApplicationUrl;
 import steps.base.signup.OrgSignUpSteps;
-import steps.com.FillDataFromSpreadSheet;
+import steps.com.GetDataFromSpreadSheet;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -49,7 +49,7 @@ public class CreateNewOrg {
     }
     public static Credential authorize() throws IOException {
 // Load client secrets.
-        InputStream in = FillDataFromSpreadSheet.class.getResourceAsStream("/client_secret.json");
+        InputStream in = GetDataFromSpreadSheet.class.getResourceAsStream("/client_secret.json");
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
 // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(HTTP_TRANSPORT, JSON_FACTORY, clientSecrets, SCOPES).setDataStoreFactory(DATA_STORE_FACTORY).setAccessType("offline").build();
@@ -67,7 +67,7 @@ public class CreateNewOrg {
 
     @Steps
     private OrgSignUpSteps Salesforce_User;
-    private FillDataFromSpreadSheet readSpreadSheet;
+    private GetDataFromSpreadSheet readSpreadSheet;
     private GetApplicationUrl applicationHomePage;
     private OrgSignUpScreen signUpScreen;
 

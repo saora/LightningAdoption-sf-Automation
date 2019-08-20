@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: stepsdefinitions.RunTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 63.677 s <<< FAILURE! - in stepsdefinitions.RunTest
+Add Js Button(Set Custom Object Data)  Time elapsed: 57.324 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Created By
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8A8PSFU', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 3976, moz:profile: C:\Users\saoramx\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 549cd204-465f-4602-a5a4-0cd5b276afbd
+*** Element info: {Using=link text, value=Created By}
+
