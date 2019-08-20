@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8cef27-11d9-4838-a41c-e7c4fbc9962b" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/ActionData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/EmailData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/GetDataFromSpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/LoginData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/2019-08-13T22-58-07_026.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/salesforce-automation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/salesforce-automation-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fc338802283364e99962910eae018e22c5d8fcf871942c34461ce802495db52c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource6215582403191674811.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BtnLinksActionsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BtnLinksActionsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/OrgSignUpScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/OrgSignUpScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/base/login/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/base/login/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/base/objectmanager/CustomField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/base/objectmanager/CustomField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/base/objectmanager/JsButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/base/objectmanager/JsButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/base/signup/OrgSignUpSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/base/signup/OrgSignUpSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/com/FillDataFromSpreadSheet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefinitions/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefinitions/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/CreateNewOrg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/VerifyOrgAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/VerifyOrgAccount.class" afterDir="false" />
-    </list>
+    <list default="true" id="ef8cef27-11d9-4838-a41c-e7c4fbc9962b" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,42 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/LoginData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/EmailData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,27 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="459">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1609#1610#0" expanded="true" />
                 <element signature="e#1682#1683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1228,8 +1141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="459">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1609#1610#0" expanded="true" />
@@ -1262,7 +1175,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
