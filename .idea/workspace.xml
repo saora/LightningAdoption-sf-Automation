@@ -661,9 +661,9 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LoginSalesforce.checkUserSuccessfullyLogin" />
-      <item itemvalue="JUnit.RunTest" />
       <item itemvalue="JUnit.NuevaOrg" />
       <item itemvalue="JUnit.NuevaOrg.test" />
+      <item itemvalue="JUnit.RunTest" />
     </list>
     <recent_temporary>
       <list>
