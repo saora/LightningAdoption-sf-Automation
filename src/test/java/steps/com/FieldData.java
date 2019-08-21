@@ -30,19 +30,31 @@ public class FieldData extends PageObject {
                 fieldPage.selDataType(String.valueOf(row.get(0)));
                 fieldPage.click_OnNext();
 
-                fieldPage.setFill_Label(String.valueOf(row.get(2)));
-                fieldPage.setFill_Length(String.valueOf(row.get(5)));
-                fieldPage.setFill_devName(String.valueOf(row.get(6)));
-                fieldPage.setFill_Description(String.valueOf(row.get(7)));
-                fieldPage.setFill_HelpText(String.valueOf(row.get(8)));
-                fieldPage.setCheck_Required(String.valueOf(row.get(9)));
-                fieldPage.setCheck_Unique(String.valueOf(row.get(10)));
-                fieldPage.setOpt_Unique(String.valueOf(row.get(11)));
-                fieldPage.setCheck_ExternalID(String.valueOf(row.get(13)));
-                fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
-                fieldPage.click_OnNext();
-                fieldPage.click_OnNext();
-                fieldPage.setClick_Save();
+                switch (String.valueOf(row.get(0))){
+                    case "Text":
+                        fieldPage.setFill_Label(String.valueOf(row.get(2)));
+                        fieldPage.setFill_Length(String.valueOf(row.get(5)));
+                        fieldPage.setFill_devName(String.valueOf(row.get(6)));
+                        fieldPage.setFill_Description(String.valueOf(row.get(7)));
+                        fieldPage.setFill_HelpText(String.valueOf(row.get(8)));
+                        fieldPage.setCheck_Required(String.valueOf(row.get(9)));
+                        fieldPage.setCheck_Unique(String.valueOf(row.get(10)));
+                        fieldPage.setOpt_Unique(String.valueOf(row.get(11)));
+                        fieldPage.setCheck_ExternalID(String.valueOf(row.get(13)));
+                        fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
+                        fieldPage.click_OnNext();
+                        fieldPage.click_OnNext();
+                        fieldPage.setClick_Save();
+                        break;
+                    case "Date":
+                        break;
+                    case "Number":
+                        break;
+                    case "Currency":
+                        break;
+                }
+
+
             }
         }
     }
