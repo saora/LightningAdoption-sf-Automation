@@ -1,6 +1,38 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Set Custom Object Data" skipped="0" tests="2" time="117.51" timestamp="2019-08-20 02:06:06"><testcase name="Add Field"><error message="Index 9 out of bounds for length 9" type="java.lang.IndexOutOfBoundsException">Index 9 out of bounds for length 9</error><system-err>Index 9 out of bounds for length 9&#13;
 steps.com.FieldData.setDataField(FieldData.java:38)&#13;
 steps.base.objectmanager.CustomField.fillFieldData(CustomField.java:25)&#13;
 stepsdefinitions.objectmanager.ObjectStepDefinitons.submitFieldInfo(ObjectStepDefinitons.java:42)&#13;
 ✽.I submit the field information(src/test/resources/com/features/objectmanager/objectmanager.feature:13)&#13;
 </system-err></testcase><testcase name="Add Js Button"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Set Custom Object Data" skipped="0" tests="2" time="8.69" timestamp="2019-08-20 05:34:56"><testcase name="Add Field"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.49 seconds&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'&#10;Driver info: driver.version: ProvideNewDriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.49 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ProvideNewDriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.49 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ProvideNewDriver). See below for more details.&#13;
+steps.base.login.LoginSteps.openLoginPage(LoginSteps.java:19)&#13;
+stepsdefinitions.objectmanager.ObjectStepDefinitons.getLoginPage(ObjectStepDefinitons.java:23)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Add Js Button"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.21 seconds&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'&#10;Driver info: driver.version: ProvideNewDriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.21 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ProvideNewDriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.21 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SORTUNO-LTW4', ip: '10.33.53.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ProvideNewDriver). See below for more details.&#13;
+steps.base.login.LoginSteps.openLoginPage(LoginSteps.java:19)&#13;
+stepsdefinitions.objectmanager.ObjectStepDefinitons.getLoginPage(ObjectStepDefinitons.java:23)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba

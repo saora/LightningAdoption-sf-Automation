@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8cef27-11d9-4838-a41c-e7c4fbc9962b" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" afterDir="false" />
@@ -15,6 +16,13 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c3cb9fcfe048a406fb2d113862f3cdff41b1f68ce74865c4eff9a7bc70b2a121.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c3cb9fcfe048a406fb2d113862f3cdff41b1f68ce74865c4eff9a7bc70b2a121.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c3cb9fcfe048a406fb2d113862f3cdff41b1f68ce74865c4eff9a7bc70b2a121_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c3cb9fcfe048a406fb2d113862f3cdff41b1f68ce74865c4eff9a7bc70b2a121_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefinitions/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefinitions/RunTest.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/com/EmailData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/com/EmailData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/com/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/com/LoginData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.properties" afterDir="false" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,6 +41,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FieldData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
@@ -49,6 +58,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
               <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,22 +72,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/GetDataFromSpreadSheet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/EmailData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="446">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +91,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FieldData.java">
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-64">
               <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +126,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/LoginData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/CustomFieldPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1152">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +154,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -133,6 +183,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,12 +197,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/ActionData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/LoginData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
               </folding>
             </state>
           </provider>
@@ -228,26 +314,34 @@
         <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/FillDataFromSpreadSheet.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
         <option value="$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/GetDataFromSpreadSheet.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/ActionData.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/com/LoginData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/com/EmailData.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" />
+=======
+        <option value="$PROJECT_DIR$/src/test/java/steps/com/EmailData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/com/LoginData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/com/FieldData.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/serenity.properties" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
       </list>
     </option>
   </component>
@@ -289,6 +383,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="salesforce-automation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="salesforce-automation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -296,11 +406,6 @@
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -407,7 +512,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -417,7 +522,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="signup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -443,15 +561,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,22 +579,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsdefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="objectmanager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LightningAdoption-sf-Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="LightningAdoption-sf-Automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -493,6 +606,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -537,6 +651,8 @@
               <item name="LightningAdoption-sf-Automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="salesforce-automation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+=======
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
             </path>
           </expand>
           <select />
@@ -710,31 +826,38 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="RunTest - 2019.08.20 at 00h 05m 44s.xml">
+=======
+    <history-entry file="RunTest - 2019.08.20 at 13h 15m 59s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 00h 18m 20s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 20m 51s.xml">
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 00h 31m 21s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 49m 16s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 00h 42m 39s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 50m 58s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 00h 49m 23s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 51m 52s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 01h 14m 39s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 55m 02s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 01h 16m 12s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 13h 57m 44s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 01h 30m 42s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 14h 00m 47s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.08.20 at 01h 31m 36s.xml">
+    <history-entry file="RunTest - 2019.08.20 at 16h 32m 20s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.08.20 at 17h 33m 14s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RunTest - 2019.08.20 at 02h 08m 13s.xml">
@@ -745,7 +868,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23507462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -810,21 +933,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'develop' of https://github.com/saora/LightningAdoption-sf-Automation&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/screens/gmail/InboxReader.java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="49" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/BtnLinksActionsSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/customize/jsbuttons.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -842,13 +950,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/webdriver/windows/serenity.conf" />
     <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/GetApplicationUrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/runner/RunTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/CcStepDefinitionsTest.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -859,6 +968,10 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ActionsStepDefinition.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SalesforceLoginSteps.java" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
     <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/ChangePasswordScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -918,6 +1031,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.53/serenity-core-2.0.53.jar!/net/serenitybdd/core/pages/WebElementFacade.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -932,13 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/features/objectmanager/objectmanager.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -946,6 +1057,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -960,6 +1072,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="181" selection-start-line="181" selection-end-line="181" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -968,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="256" column="16" selection-start-line="256" selection-start-column="16" selection-end-line="256" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6632#6633#0" expanded="true" />
@@ -988,6 +1106,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/VerifyOrgAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -999,6 +1118,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/base/CreateNewOrg.java">
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
@@ -1061,30 +1183,79 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/AddButtonsLinksandActions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/GetDataFromSpreadSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ButtonLinkStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+=======
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.53/serenity-core-2.0.53.jar!/net/serenitybdd/core/pages/PageObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="644" column="22" selection-start-line="644" selection-start-column="22" selection-end-line="644" selection-end-column="22" />
+          <folding>
+            <element signature="e#24542#24543#0" expanded="true" />
+            <element signature="e#24607#24608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ObjectStepDefinitons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/TestValidationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/ActionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
@@ -1099,6 +1270,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/objectmanager/ActionsStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1132,12 +1304,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/base/SalesforceLoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrgSignUpScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/signup/OrgSignUpSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1149,46 +1344,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/LoginData.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/login/LoginStepsDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1197,38 +1358,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+<<<<<<< HEAD
+        <state relative-caret-position="520">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+=======
+        <state relative-caret-position="327">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/SignUpData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EmailSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/login/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screens/gmail/InboxReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/JsButton.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/EmailData.java">
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/GetDataFromSpreadSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/CustomFieldPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/EmailData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BtnLinksActionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/JsButtonData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-64">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/base/objectmanager/CustomField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1237,8 +1497,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FieldData.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/com/FieldData.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdefinitions/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 9712303cd7927b22e0259879b84f21b93f4a3fba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1248,6 +1533,16 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean verify -Ddriver=firefox" />
+    <option value="clean verify -Ddriver=chrome" />
+    <option value="$ mvn clean verify -Ddriver=chrome" />
+    <option value="clean verify -Ddriver=chrome.switches = --incognito;--disable-download-notification" />
+    <option value="$ mvn clean verify -Ddriver=firefox" />
+    <option value="clean verify" />
+    <option value="clean" />
+    <option value="verify" />
+    <option value="clean verify -Dwebdriver.driver=chrome -X" />
+    <option value="clean verify -Dwebdriver.driver=chrome" />
     <option value="clean verify -Ddriver=firefox" />
   </component>
 </project>

@@ -16,7 +16,7 @@ public class EmailData extends PageObject {
     public void verifyAccount()throws Exception{
         Sheets service = getSheetsService();
         String spreadsheetId = "1lCOOmjCjy2IvDf7DhQJvMnTvhlpHPwAx1YmBRraM0PU";
-        String range = "Login Test Data!A2:H";
+        String range = "Login Test Data!C2:D";
         ValueRange response = service.spreadsheets().values().get(spreadsheetId, range).execute();
         List<List<Object>> values = response.getValues();
         if (values == null || values.size() == 0) {
@@ -25,8 +25,8 @@ public class EmailData extends PageObject {
             String emailUser = "";
             String emailPass = "";
             for (List row : values) {
-                emailUser = String.valueOf(row.get(2));
-                emailPass = String.valueOf(row.get(3));
+                emailUser = String.valueOf(row.get(0));
+                emailPass = String.valueOf(row.get(1));
             }
             String a = InboxReader.getEmail(emailUser, emailPass);
             loginPage.setVerificationCode(a);

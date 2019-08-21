@@ -42,19 +42,29 @@ public class FieldData extends PageObject {
                         fieldPage.setOpt_Unique(String.valueOf(row.get(11)));
                         fieldPage.setCheck_ExternalID(String.valueOf(row.get(13)));
                         fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
-                        fieldPage.click_OnNext();
-                        fieldPage.click_OnNext();
-                        fieldPage.setClick_Save();
                         break;
-                    case "Date":
+                    case "Email":
+                        fieldPage.setFill_Label(String.valueOf(row.get(2)));
+                        fieldPage.setFill_devName(String.valueOf(row.get(6)));
+                        fieldPage.setFill_Description(String.valueOf(row.get(7)));
+                        fieldPage.setFill_HelpText(String.valueOf(row.get(8)));
+                        fieldPage.setCheck_Required(String.valueOf(row.get(9)));
+                        fieldPage.setCheck_Unique(String.valueOf(row.get(10)));
+                        fieldPage.setCheck_ExternalID(String.valueOf(row.get(13)));
+                        fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
                         break;
-                    case "Number":
-                        break;
-                    case "Currency":
+                    case "Phone":
+                        fieldPage.setFill_Label(String.valueOf(row.get(2)));
+                        fieldPage.setFill_devName(String.valueOf(row.get(6)));
+                        fieldPage.setFill_Description(String.valueOf(row.get(7)));
+                        fieldPage.setFill_HelpText(String.valueOf(row.get(8)));
+                        fieldPage.setCheck_Required(String.valueOf(row.get(9)));
+                        fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
                         break;
                 }
-
-
+                fieldPage.click_OnNext();
+                fieldPage.click_OnNext();
+                fieldPage.setClick_Save();
             }
         }
     }

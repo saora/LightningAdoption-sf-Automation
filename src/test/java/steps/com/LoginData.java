@@ -16,20 +16,17 @@ public class LoginData extends PageObject {
     public void loginSalesforce() throws IOException {
         Sheets service = getSheetsService();
         String spreadsheetId = "1lCOOmjCjy2IvDf7DhQJvMnTvhlpHPwAx1YmBRraM0PU";
-        String range = "Login Test Data!A2:H";
+        String range = "Login Test Data!A2:B";
         ValueRange response = service.spreadsheets().values().get(spreadsheetId, range).execute();
         List<List<Object>> values = response.getValues();
         if (values == null || values.size() == 0) {
             System.out.println("No data found.");
         } else {
-            String orgPass = "";
-            String orgUser = "";
             for (List row : values) {
-                orgUser = String.valueOf(row.get(0));
-                orgPass = String.valueOf(row.get(1));
+                loginPage.setOrgUser(String.valueOf(row.get(0)));
+                loginPage.setOrgPass(String.valueOf(row.get(1)));
+                loginPage.submitBtn();
             }
-            loginPage.setLoginData(orgUser, orgPass);
-            loginPage.submitBtn();
         }
     }
 
