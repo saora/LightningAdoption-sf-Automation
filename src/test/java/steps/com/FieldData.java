@@ -31,19 +31,19 @@ public class FieldData extends PageObject {
                 fieldPage.selDataType(String.valueOf(row.get(0)));
                 fieldPage.click_OnNext();
 
-
                 if (String.valueOf(row.get(0)).equals("Lookup Relationship") || String.valueOf(row.get(0)).equals("External Lookup Relationship")) {
                     fieldPage.setSelRelatedTo(String.valueOf(row.get(1)));
                 } else {
+                    fieldPage.setFill_Label(String.valueOf(row.get(2)));
+                    fieldPage.setFill_devName(String.valueOf(row.get(6)));
+
                     if (String.valueOf(row.get(0)).equals("Date") || String.valueOf(row.get(0)).equals("Date/Time")) {
                         fieldPage.setFill_Description(String.valueOf(row.get(7)));
                         fieldPage.setFill_HelpText(String.valueOf(row.get(8)));
+                        fieldPage.setCheck_Required(String.valueOf(row.get(9)));
                         fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
                         fieldPage.click_OnNext();
                     } else {
-                        fieldPage.setFill_Label(String.valueOf(row.get(2)));
-                        fieldPage.setFill_devName(String.valueOf(row.get(6)));
-
                         switch (String.valueOf(row.get(0))) {
                             case "Auto Number":
                                 fieldPage.setFill_DisplayFormat(String.valueOf(row.get(3)));
