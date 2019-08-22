@@ -30,7 +30,11 @@ public class ObjectStepDefinitons {
 
     @Then("^I should Logged In$")
     public void verifyAcct()throws Exception {
-        loginSteps.verifyOrgAccount();
+        try {
+            loginSteps.verifyOrgAccount();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Given("^I click on new field$")
