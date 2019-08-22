@@ -95,6 +95,15 @@ public class CustomFieldPage extends PageObject {
     private WebElementFacade click_Save;
 
     // TEXT FIELD --------------------------
+    @FindBy(id = "DomainEnumOrId")
+    private WebElementFacade selRelatedTo;
+
+    @FindBy(id = "AutoNumberMask")
+    private WebElementFacade fill_DisplayFormat;
+
+    @FindBy(id = "startNum")
+    private WebElementFacade fill_StartingNumber;
+
     @FindBy(id = "MasterLabel")
     private WebElementFacade fill_Label;
 
@@ -127,6 +136,18 @@ public class CustomFieldPage extends PageObject {
 
     @FindBy(id = "DefaultValue")
     private WebElementFacade fill_DefaultValue;
+
+    @FindBy(id = "populate")
+    private WebElementFacade check_AutoNumber;
+
+   @FindBy(className = "last labelCol")
+   private WebElementFacade selectRadiobtn;
+
+   @FindBy(id = "Scale")
+   private WebElementFacade fill_DecimalPlaces;
+
+   @FindBy(id = "CalculatedFormula")
+   private WebElementFacade fill_FormulaEditor;
 
     public void selDataType(String dataType){
         switch(dataType){
@@ -204,6 +225,37 @@ public class CustomFieldPage extends PageObject {
 
         }
 
+    }
+
+    public void setSelRelatedTo(String selRelatedTo){
+        this.selRelatedTo.selectByVisibleText(selRelatedTo);
+    }
+
+    public void setFill_DisplayFormat(String fillDisplayFormat){
+        fill_DisplayFormat.clear();
+        fill_DisplayFormat.sendKeys(fillDisplayFormat);
+    }
+
+    public void setFill_StartingNumber(String startingNumber){
+        fill_StartingNumber.clear();
+        fill_StartingNumber.sendKeys(startingNumber);
+    }
+
+    public void setCheck_AutoNumber(){
+        check_AutoNumber.click();
+    }
+
+    public void setFill_DecimalPlaces(String decimalPlaces){
+        fill_DecimalPlaces.selectByVisibleText(decimalPlaces);
+    }
+
+    public void setFill_FormulaEditor(String formulaEditor){
+        fill_FormulaEditor.clear();
+        fill_FormulaEditor.sendKeys(formulaEditor);
+    }
+
+    public void selFormulaType(String selVisibleText){
+        selectRadiobtn.selectByVisibleText(selVisibleText);
     }
 
     public void clik_NewField(){
