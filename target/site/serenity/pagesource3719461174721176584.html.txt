@@ -1,4 +1,0 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<!-- Scripts -->
-<script src="/assets/application-c00cceadd7e76f9fc8689a3f683939d10eba348f925f93f771a4382b378a9d3b.js"></script></head></html>
