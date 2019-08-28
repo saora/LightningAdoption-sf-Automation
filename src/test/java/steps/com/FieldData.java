@@ -24,8 +24,6 @@ public class FieldData extends PageObject {
             System.out.println("No data found.");
         } else {
             for (List row : values) {
-
-
                 homePage.selObjectOption("Fields");
                 fieldPage.clik_NewField();
                 fieldPage.selDataType(String.valueOf(row.get(0)));
