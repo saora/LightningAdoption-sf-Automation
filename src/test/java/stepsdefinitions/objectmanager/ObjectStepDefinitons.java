@@ -30,7 +30,11 @@ public class ObjectStepDefinitons {
 
     @Then("^I should Logged In$")
     public void verifyAcct()throws Exception {
-        loginSteps.verifyOrgAccount();
+        try {
+            loginSteps.verifyOrgAccount();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Given("^I click on new field$")
@@ -41,6 +45,7 @@ public class ObjectStepDefinitons {
     public void submitFieldInfo()throws Exception{
         custField.fillFieldData();
     }
+
     @Then("^I should create a new field$")
     public void newFieldVerification(){
         System.out.println("I should create a new field");

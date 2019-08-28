@@ -28,8 +28,12 @@ public class EmailData extends PageObject {
                 emailUser = String.valueOf(row.get(0));
                 emailPass = String.valueOf(row.get(1));
             }
-            String a = InboxReader.getEmail(emailUser, emailPass);
-            loginPage.setVerificationCode(a);
+            try {
+                String a = InboxReader.getEmail(emailUser, emailPass);
+                loginPage.setVerificationCode(a);
+            }catch (Exception e){
+                System.out.println("Verification not nedded");
+            }
         }
     }
 }

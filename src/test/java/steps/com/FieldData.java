@@ -3,6 +3,7 @@ package steps.com;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
 import net.serenitybdd.core.pages.PageObject;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.CustomFieldPage;
 import pages.HomePage;
 
@@ -17,7 +18,7 @@ public class FieldData extends PageObject {
     public void setDataField() throws Exception {
         Sheets service = getSheetsService();
         String spreadsheetId = "1lCOOmjCjy2IvDf7DhQJvMnTvhlpHPwAx1YmBRraM0PU";
-        String range = "Field Test Data!A3:P";
+        String range = "Field Test Data!A3:Z";
         ValueRange response = service.spreadsheets().values().get(spreadsheetId, range).execute();
         List<List<Object>> values = response.getValues();
         if (values == null || values.size() == 0) {
@@ -42,6 +43,7 @@ public class FieldData extends PageObject {
                         fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
                         fieldPage.click_OnNext();
                     } else {
+                        try {
                         switch (String.valueOf(row.get(0))) {
                             case "Auto Number":
                                 fieldPage.setFill_DisplayFormat(String.valueOf(row.get(3)));
@@ -96,7 +98,6 @@ public class FieldData extends PageObject {
                                 fieldPage.setFill_DefaultValue(String.valueOf(row.get(14)));
                                 fieldPage.click_OnNext();
                                 break;
-
                             case "Geolocation":
                                 break;
                             case "Number":
@@ -132,10 +133,19 @@ public class FieldData extends PageObject {
                             case "URL":
                                 break;
                         }
+
+                            fieldPage.click_OnNext();
+                            fieldPage.setClick_Save();
+                               if (waitForCondition().until(ExpectedConditions.alertIsPresent())==null){
+                                   System.out.println("Alert not found !!!");
+                               }else{
+                                   getAlert().accept();
+                               }
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
                     }
                 }
-                fieldPage.click_OnNext();
-                fieldPage.setClick_Save();
             }
         }
     }

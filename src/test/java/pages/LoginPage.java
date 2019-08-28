@@ -41,12 +41,9 @@ public class LoginPage extends PageObject {
      }
 
     public void setVerificationCode(String verifyCode){
-        try {
+
             fillVerificationCode.sendKeys(verifyCode);
             click_Verify.click();
-        }catch(Exception e){
-            e.printStackTrace();
-        }
 
     }
     public void loginVerification(){

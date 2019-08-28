@@ -271,7 +271,13 @@ public class CustomFieldPage extends PageObject {
     }
 
     public void setClick_Save(){
-        click_Save.click();
+        if(click_Save.isPresent()){
+            click_Save.click();
+        }else{
+            System.out.println("Fail trying to add new obj !!!");
+        }
+
+
     }
 
     public void setFill_Label(String fieldLabel){

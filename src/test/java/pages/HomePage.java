@@ -409,6 +409,8 @@ public class HomePage extends PageObject {
     }
 
     public void selObjectOption(String option){
+
+        try{
         switch (option){
             //Tab Names and Labels---------------------------------
             case "Rename Tabs and Labels":
@@ -516,9 +518,10 @@ public class HomePage extends PageObject {
                 break;
                 default:
                     System.out.println("a no match!!");
-
         }
-
+        }catch(Exception e){
+            System.out.println("Element not present!!!");
+        }
+        }
     }
 
-}

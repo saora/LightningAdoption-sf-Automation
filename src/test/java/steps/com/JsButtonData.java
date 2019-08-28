@@ -27,6 +27,7 @@ public class JsButtonData extends PageObject {
             for (List row : values) {
                 homePage.selObjectOption("Buttons, Links, and Actions");
                 btnLinksActionsPage.clickOption("New Button or Link");
+
                 btnLinksActionsPage.setFillLabel(String.valueOf(row.get(0)));
                 btnLinksActionsPage.setFillName(String.valueOf(row.get(1)));
                 btnLinksActionsPage.setFillDescription(String.valueOf(row.get(2)));
